@@ -113,9 +113,9 @@ const OrderModal = ({ isOpen, onClose, customText }: OrderModalProps) => {
   };
 
   if (orderSuccess) {
-    return (
-      <Dialog open={isOpen} onOpenChange={resetModal}>
-        <DialogContent className="sm:max-w-md">
+  return (
+    <Dialog open={isOpen} onOpenChange={resetModal}>
+      <DialogContent className="sm:max-w-md max-h-[90vh] overflow-y-auto">
           <div className="text-center py-6">
             <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">Order Confirmed!</h3>
@@ -140,7 +140,7 @@ const OrderModal = ({ isOpen, onClose, customText }: OrderModalProps) => {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-lg">
+      <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="text-xl">Complete Your Order</DialogTitle>
           <p className="text-muted-foreground">
