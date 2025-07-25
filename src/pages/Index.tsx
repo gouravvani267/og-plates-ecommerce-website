@@ -30,7 +30,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Car className="w-8 h-8 text-primary" />
-              <h1 className="text-2xl font-bold">PlateCustom</h1>
+              <h1 className="text-2xl font-bold">theogplates</h1>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Badge variant="secondary" className="px-3 py-1">
@@ -257,10 +257,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Car className="w-6 h-6 text-primary" />
-              <span className="font-semibold">PlateCustom</span>
+              <span className="font-semibold">theogplates</span>
             </div>
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
-              <span>© 2024 PlateCustom. All rights reserved.</span>
+              <span>© 2024 theogplates. All rights reserved.</span>
               <span>•</span>
               <span>Made in India</span>
               <span>•</span>
