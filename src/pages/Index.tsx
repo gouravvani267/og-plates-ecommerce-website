@@ -8,6 +8,7 @@ import OrderModal from '@/components/OrderModal';
 import heroImage from '@/assets/hero-numberplate.jpg';
 import productDetail from '@/assets/product-detail.jpg';
 import lifestyleShot from '@/assets/lifestyle-shot.jpg';
+import ogPlatesLogo from '@/assets/og-plates-logo.jpg';
 
 const Index = () => {
   const [orderModalOpen, setOrderModalOpen] = useState(false);
@@ -29,8 +30,12 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Car className="w-8 h-8 text-primary" />
-              <h1 className="text-2xl font-bold">theogplates</h1>
+              <img 
+                src={ogPlatesLogo} 
+                alt="OG PLATES Logo" 
+                className="h-10 w-auto md:h-12 object-contain cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              />
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Badge variant="secondary" className="px-3 py-1">
@@ -256,8 +261,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Car className="w-6 h-6 text-primary" />
-              <span className="font-semibold">theogplates</span>
+              <img 
+                src={ogPlatesLogo} 
+                alt="OG PLATES Logo" 
+                className="h-8 w-auto object-contain"
+              />
             </div>
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
               <span>© 2024 theogplates. All rights reserved.</span>
