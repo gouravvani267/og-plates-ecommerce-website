@@ -14,11 +14,7 @@ OG Plates is a modern e-commerce platform that allows customers to design and or
 
 ---
 
-## 🖼️ Screenshots
-![Homepage Preview](https://the-og-plates.lovable.app/ogplates-preview.png)  
-*(Replace with your own screenshot)*
 
----
 
 ## 🚀 Tech Stack
 - **Frontend**: React.js / Lovable App Builder  
