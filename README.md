@@ -62,11 +62,7 @@ Submit a Pull Request
 For queries or collaborations:
 Owner: Gourav Vani
 🌐 Website: the-og-plates.lovable.app
-📧 Email: your email here
+📧 Email:gouravvani267@gmail.com
 
 ⭐ Don’t forget to star this repo if you like the project!
-pgsql
-Copy
-Edit
 
-Do you want me to also **add a product showcase section** (with examples of plates) insid
